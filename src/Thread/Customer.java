@@ -10,4 +10,5 @@ package Thread;
  *  消费者     等待唤醒
  */
 public class Customer {
+
 }
