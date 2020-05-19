@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2ee5f13d-7eb9-4b15-acd2-71aff50ad41c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/testPython.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/testPython.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +48,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="python" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
       <recent name="D:\idea project\Thread\src" />
@@ -161,7 +165,7 @@
       <workItem from="1589715682127" duration="1337000" />
       <workItem from="1589722153604" duration="3795000" />
       <workItem from="1589765528344" duration="20001000" />
-      <workItem from="1589851402179" duration="1353000" />
+      <workItem from="1589851402179" duration="4062000" />
     </task>
     <task id="LOCAL-00001" summary="Thread">
       <created>1588778086814</created>
@@ -184,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589791684179</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="pull">
+      <created>1589870771969</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589870771969</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +203,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Thread" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thread" />
+    <MESSAGE value="pull" />
+    <option name="LAST_COMMIT_MESSAGE" value="pull" />
   </component>
   <component name="WindowStateProjectService">
     <state x="531" y="233" key="#Inspections" timestamp="1589768133881">
@@ -209,11 +221,11 @@
     </state>
     <state x="709" y="276" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1589302187791" />
     <state x="760" y="286" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1160@0.0.1920.1160" timestamp="1589791258837" />
-    <state x="513" y="167" key="CommitChangelistDialog2" timestamp="1589791683413">
+    <state x="513" y="167" key="CommitChangelistDialog2" timestamp="1589870771050">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="479" y="161" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1589302641814" />
-    <state x="513" y="167" key="CommitChangelistDialog2/0.0.1920.1160@0.0.1920.1160" timestamp="1589791683413" />
+    <state x="513" y="167" key="CommitChangelistDialog2/0.0.1920.1160@0.0.1920.1160" timestamp="1589870771050" />
     <state width="448" height="466" key="DebuggerActiveHint" timestamp="1589208813801">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -266,11 +278,11 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1589342058288" />
-    <state x="531" y="311" key="Vcs.Push.Dialog.v2" timestamp="1589791686951">
+    <state x="531" y="311" key="Vcs.Push.Dialog.v2" timestamp="1589870773265">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1589302645297" />
-    <state x="531" y="311" key="Vcs.Push.Dialog.v2/0.0.1920.1160@0.0.1920.1160" timestamp="1589791686951" />
+    <state x="531" y="311" key="Vcs.Push.Dialog.v2/0.0.1920.1160@0.0.1920.1160" timestamp="1589870773265" />
     <state x="609" y="394" key="com.intellij.ide.util.TipDialog" timestamp="1589715683625">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>

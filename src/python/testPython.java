@@ -15,7 +15,6 @@ public class testPython {
             //readLine,是一行一行读
             boolean ready = in.ready();
             System.out.println(ready);
-
             while ((line = in.readLine()) != null) {
                 System.out.println(line);
             }
