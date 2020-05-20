@@ -1,4 +1,4 @@
-package Lock_8;
+package lock_8;
 
 import java.util.concurrent.TimeUnit;
 

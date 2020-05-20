@@ -1,20 +1,16 @@
-package Thread;
-
-import java.util.concurrent.locks.Condition;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
-
+package thread;
 /**
- * 2020/4/30
+ * 2020/4/29
  *
  * @author wuzhanhao
  * <p>
  * description:
- * 多线程之间互相通信，使用lock
+ *
+ *      线程之间的通信问题：生产者和消费者，通知唤醒
  */
-public class ThreadLock {
+public class ThreadSyn {
     public static void main(String[] args) {
-        Data1 data = new Data1();
+        Data data = new Data();
 
         //A线程+1
         new Thread(() -> {
@@ -36,7 +32,7 @@ public class ThreadLock {
                 }
             }
         }, "B").start();
-        //D线程+1
+        //A线程+1
         new Thread(() -> {
             for (int i = 0; i < 10; i++) {
                 try {
@@ -46,7 +42,7 @@ public class ThreadLock {
                 }
             }
         }, "C").start();
-        //D线程-1
+        //B线程-1
         new Thread(() -> {
             for (int i = 0; i < 10; i++) {
                 try {
@@ -60,41 +56,26 @@ public class ThreadLock {
 }
 
 //等待，业务，通知
-//Condition 是Object监视器方法，精准通知和唤醒线程
-class Data1 {
-    Lock lock = new ReentrantLock();
-    Condition condition = lock.newCondition();
+class Data{
     private int num = 0;
 
     //+1
-    public void increment() throws InterruptedException {
-        lock.lock();
-        try{
-            while (num!=0){
-                condition.await();
-            }
-            num++;
-            System.out.println(Thread.currentThread().getName() + "num的数值" + num);
-            condition.signalAll();
-        }finally {
-            lock.unlock();
+    public synchronized void increment() throws InterruptedException {
+        while (num != 0){
+            this.wait();
         }
+        num ++;
+        System.out.println(Thread.currentThread().getName() + "num的数量=>" + num);
+        this.notifyAll();
     }
 
     //-1
-    public void decrement() throws InterruptedException {
-        lock.lock();
-        try{
-            while (num==0){
-                condition.await();
-            }
-            num--;
-            System.out.println(Thread.currentThread().getName() + "num的数值" + num);
-            condition.signalAll();
-        }finally {
-            lock.unlock();
+    public synchronized void decrement() throws InterruptedException {
+        while (num==0){
+            this.wait();
         }
-
+        num--;
+        System.out.println(Thread.currentThread().getName() + "num的数量->" + num);
+        this.notifyAll();
     }
 }
-

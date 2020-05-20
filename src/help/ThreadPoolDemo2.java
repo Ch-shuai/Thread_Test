@@ -1,5 +1,6 @@
 package help;
 
+import java.time.LocalDate;
 import java.util.concurrent.Executors;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
@@ -31,7 +32,7 @@ public class ThreadPoolDemo2 {
         //自定义线程池，最大线程如何定义，
         // CPU密集型，几核是多少就定义多少，可以让CPU效率最高
         // IO密集型。判断程序中，耗IO的线程
-
+        int lengthOfYear = LocalDate.now().lengthOfYear();
         //获取CPU 核数
         int availableProcessors = Runtime.getRuntime().availableProcessors();
         ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(
@@ -41,10 +42,11 @@ public class ThreadPoolDemo2 {
                 TimeUnit.SECONDS,
                 blockingQueue,
                 Executors.defaultThreadFactory(),
+
                 new ThreadPoolExecutor.CallerRunsPolicy());
 
         try{
-            //最大承载，阻塞队列大小+max
+            // 最大承载，阻塞队列大小+max
             for (int i = 1; i <=10; i++) {
                 threadPoolExecutor.execute(()->{
                     System.out.println(Thread.currentThread().getName() + "------> "+ "OK");

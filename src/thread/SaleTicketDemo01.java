@@ -1,4 +1,4 @@
-package Thread;
+package thread;
 
 /**
  * 2020/4/29
