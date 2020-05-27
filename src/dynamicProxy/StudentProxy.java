@@ -27,7 +27,6 @@ public class StudentProxy {
 		 */
 		Object proxyInstance = Proxy.newProxyInstance(StudentProxy.class.getClassLoader(), Student.class.getInterfaces(), new InvocationHandler() {
 			/**处理代理实例上的方法调用并返回结果
-			 *
 			 * @param proxy    调用该方法的代理实例
 			 * @param method
 			 * @param args
