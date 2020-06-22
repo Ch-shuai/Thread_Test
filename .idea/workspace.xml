@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ee5f13d-7eb9-4b15-acd2-71aff50ad41c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/help/ReadWriteLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/LambdaDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/StudyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/Thread/Data1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Thread/Thread/Data1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/Thread/Data2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Thread/Thread/Data2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/Thread/SaleTicketDemo02$Ticket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Thread/Thread/SaleTicketDemo02$Ticket.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +57,33 @@
       <recent name="D:\idea project\Thread\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReadWriteLockDemo">
+  <component name="RunManager" selected="Application.StudyTest">
+    <configuration name="ArrayLIstDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="list.ArrayLIstDemo" />
+      <module name="Thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinckedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="list.LinckedListDemo" />
+      <module name="Thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="unsafe.ListTest" />
       <module name="Thread" />
@@ -68,38 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="unsafe.MapTest" />
+    <configuration name="StudyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.StudyTest" />
       <module name="Thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unsafe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReadWriteLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="help.ReadWriteLockDemo" />
-      <module name="Thread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="help.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="unsafe.SetTest" />
-      <module name="Thread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="unsafe.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReadWriteLockDemo" />
-        <item itemvalue="Application.SetTest" />
+        <item itemvalue="Application.StudyTest" />
         <item itemvalue="Application.callableTest" />
-        <item itemvalue="Application.MapTest" />
+        <item itemvalue="Application.LinckedListDemo" />
         <item itemvalue="Application.ListTest" />
+        <item itemvalue="Application.ArrayLIstDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -162,6 +165,10 @@
       <workItem from="1589633720717" duration="606000" />
       <workItem from="1589715682127" duration="1337000" />
       <workItem from="1589722153604" duration="3795000" />
+      <workItem from="1590988943626" duration="336000" />
+      <workItem from="1591148217985" duration="1315000" />
+      <workItem from="1591672306773" duration="50000" />
+      <workItem from="1592320021511" duration="1381000" />
     </task>
     <task id="LOCAL-00001" summary="Thread">
       <created>1588778086814</created>
@@ -208,49 +215,49 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="448" height="466" key="DebuggerActiveHint/0.0.1792.1120@0.0.1792.1120" timestamp="1589208813801" />
-    <state width="1750" height="310" key="GridCell.Tab.0.bottom" timestamp="1589725978561">
-      <screen x="0" y="23" width="1731" height="1097" />
+    <state width="1750" height="382" key="GridCell.Tab.0.bottom" timestamp="1592355862658">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="310" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1589724210926" />
+    <state width="1750" height="382" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1592355862658" />
     <state width="1877" height="396" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1588236604853" />
     <state width="1750" height="310" key="GridCell.Tab.0.bottom/0.23.1731.1097@0.23.1731.1097" timestamp="1589725978561" />
-    <state width="1750" height="310" key="GridCell.Tab.0.center" timestamp="1589725978560">
-      <screen x="0" y="23" width="1731" height="1097" />
+    <state width="1750" height="382" key="GridCell.Tab.0.center" timestamp="1592355862657">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="310" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1589724210925" />
+    <state width="1750" height="382" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1592355862657" />
     <state width="1877" height="396" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1588236604853" />
     <state width="1750" height="310" key="GridCell.Tab.0.center/0.23.1731.1097@0.23.1731.1097" timestamp="1589725978560" />
-    <state width="1750" height="310" key="GridCell.Tab.0.left" timestamp="1589725978556">
-      <screen x="0" y="23" width="1731" height="1097" />
+    <state width="1750" height="382" key="GridCell.Tab.0.left" timestamp="1592355862656">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="310" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1589724210924" />
+    <state width="1750" height="382" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1592355862656" />
     <state width="1877" height="396" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1588236604853" />
     <state width="1750" height="310" key="GridCell.Tab.0.left/0.23.1731.1097@0.23.1731.1097" timestamp="1589725978556" />
-    <state width="1750" height="310" key="GridCell.Tab.0.right" timestamp="1589725978561">
-      <screen x="0" y="23" width="1731" height="1097" />
+    <state width="1750" height="382" key="GridCell.Tab.0.right" timestamp="1592355862658">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="310" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1589724210925" />
+    <state width="1750" height="382" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1592355862658" />
     <state width="1877" height="396" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1588236604853" />
     <state width="1750" height="310" key="GridCell.Tab.0.right/0.23.1731.1097@0.23.1731.1097" timestamp="1589725978561" />
-    <state width="1750" height="382" key="GridCell.Tab.1.bottom" timestamp="1589208799255">
+    <state width="1750" height="382" key="GridCell.Tab.1.bottom" timestamp="1592355862661">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="382" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1589208799255" />
+    <state width="1750" height="382" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1592355862661" />
     <state width="1877" height="396" key="GridCell.Tab.1.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1588236604853" />
-    <state width="1750" height="382" key="GridCell.Tab.1.center" timestamp="1589208799254">
+    <state width="1750" height="382" key="GridCell.Tab.1.center" timestamp="1592355862660">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="382" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1589208799254" />
+    <state width="1750" height="382" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1592355862660" />
     <state width="1877" height="396" key="GridCell.Tab.1.center/0.0.1920.1160@0.0.1920.1160" timestamp="1588236604853" />
-    <state width="1750" height="382" key="GridCell.Tab.1.left" timestamp="1589208799254">
+    <state width="1750" height="382" key="GridCell.Tab.1.left" timestamp="1592355862659">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="382" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1589208799254" />
+    <state width="1750" height="382" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1592355862659" />
     <state width="1877" height="396" key="GridCell.Tab.1.left/0.0.1920.1160@0.0.1920.1160" timestamp="1588236604852" />
-    <state width="1750" height="382" key="GridCell.Tab.1.right" timestamp="1589208799255">
+    <state width="1750" height="382" key="GridCell.Tab.1.right" timestamp="1592355862660">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="382" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1589208799255" />
+    <state width="1750" height="382" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1592355862660" />
     <state width="1877" height="396" key="GridCell.Tab.1.right/0.0.1920.1160@0.0.1920.1160" timestamp="1588236604853" />
     <state x="397" y="199" key="SettingsEditor" timestamp="1589342058288">
       <screen x="0" y="0" width="1792" height="1120" />
@@ -274,14 +281,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/python/testPyhton.java</url>
+          <url>file://$PROJECT_DIR$/src/test/StudyTest.java</url>
           <line>10</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/python/testPyhton.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
